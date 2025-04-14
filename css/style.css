@@ -1,44 +1,14 @@
 @media screen and (max-width: 480px) {
-  #contact_heading {
-    text-decoration: underline;
-  }
-  
-  #skills_heading {
-    text-decoration: underline;
-  }
-  
-  #jobs_heading {
-    text-decoration: underline;
-  }
-  
-  #education_heading {
-    text-decoration: underline;
-  }
-  
-  #video_heading {
-    text-decoration: underline;
+  #resume-container {
+	justify-content: center;
+	text-align: center;
   }
 }
 
 @media screen and (max-width: 600px) {
-  #contact_heading {
-    text-decoration: underline;
-  }
-  
-  #skills_heading {
-    text-decoration: underline;
-  }
-  
-  #jobs_heading {
-    text-decoration: underline;
-  }
-  
-  #education_heading {
-    text-decoration: underline;
-  }
-  
-  #video_heading {
-    text-decoration: underline;
+  #resume-container {
+    justify-content: center;
+	text-align: center;
   }
 }
 
