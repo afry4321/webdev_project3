@@ -182,6 +182,7 @@ td, th {
 
 @media screen and (max-width: 480px) {
   #resume-container {
+	display: flex;
 	justify-content: center;
 	text-align: center;
 	border: 1px solid black;
@@ -189,12 +190,12 @@ td, th {
   
   #resume_heading {
     text-decoration: underline;
-	font-size: medium;
   }
 }
 
 @media screen and (max-width: 600px) {
-  #resume-container {
+  #main {
+	display: flex;
 	justify-content: center;
 	text-align: center;
 	border: 1px solid black;
@@ -202,6 +203,5 @@ td, th {
   
   #resume_heading {
     text-decoration: underline;
-	font-size: medium;
   }
 }
