@@ -187,9 +187,29 @@ td, th {
 	text-align: center;
   }
   
-  #resume_nav {
+  #resume_nav * {
     width: 50%;
     gap: 50px;
+  }
+  
+  #contact_heading {
+    text-align: center;
+  }
+  
+  #skills_heading {
+	text-align: center;
+  }
+  
+  #jobs_heading {
+	text-align: center;
+  }
+  
+  #education_heading {
+    text-align: center;
+  }
+  
+  #video_heading {
+	text-align: center;
   }
 }
 
@@ -203,5 +223,25 @@ td, th {
   #resume_nav * {
     width: 50%;
     gap: 50px;
+  }
+  
+  #contact_heading {
+    text-align: center;
+  }
+  
+  #skills_heading {
+	text-align: center;
+  }
+  
+  #jobs_heading {
+	text-align: center;
+  }
+  
+  #education_heading {
+    text-align: center;
+  }
+  
+  #video_heading {
+	text-align: center;
   }
 }
