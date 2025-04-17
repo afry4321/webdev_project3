@@ -182,7 +182,7 @@ td, th {
 
 @media screen and (max-width: 480px) {
   #resume_container * {
-    font-size: 75%;
+    font-size: 100%;
 	justify-content: center;
 	text-align: center;
   }
@@ -199,7 +199,7 @@ td, th {
 
 @media screen and (max-width: 600px) {
   #resume_container * {
-    font-size: 75%;
+    font-size: 100%;
 	justify-content: center;
 	text-align: center;
   }
