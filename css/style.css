@@ -193,7 +193,7 @@ td, th {
   }
   
   #resume_nav * {
-	gap: 50%;
+	gap: -50%;
   }
 }
 
@@ -210,6 +210,6 @@ td, th {
   }
   
   #resume_nav * {
-	gap: 50%;
+	gap: -50%;
   }
 }
