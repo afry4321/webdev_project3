@@ -185,6 +185,10 @@ td, th {
     font-size: 50%;
 	justify-content: center;
 	text-align: center;
+	
+  nav * {
+	gap: 50%;
+	width: 50%;
   }
 }
 
@@ -193,5 +197,10 @@ td, th {
     font-size: 50%;
 	justify-content: center;
 	text-align: center;
+  }
+  
+  nav * {
+	gap: 50%;
+	width: 50%;
   }
 }
