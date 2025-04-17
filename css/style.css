@@ -185,10 +185,11 @@ td, th {
     font-size: 50%;
 	justify-content: center;
 	text-align: center;
-	
+  }
+  
   nav * {
-	gap: 50%;
-	width: 50%;
+	gap: 20%;
+	width: 20%;
   }
 }
 
@@ -200,7 +201,7 @@ td, th {
   }
   
   nav * {
-	gap: 50%;
-	width: 50%;
+	gap: 20%;
+	width: 20%;
   }
 }
