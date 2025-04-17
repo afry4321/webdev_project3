@@ -181,7 +181,7 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-  #resume_container {
+  #resume_container * {
     font-size: 50%;
 	justify-content: center;
 	text-align: center;
@@ -189,24 +189,19 @@ td, th {
   
   #resume_nav {
     width: 50%;
-  }
-  
-  #resume_nav ul {
     gap: 50px;
   }
+}
 
 @media screen and (max-width: 600px) {
-  #resume_container {
+  #resume_container * {
     font-size: 50%;
 	justify-content: center;
 	text-align: center;
   }
   
-  #resume_nav {
+  #resume_nav * {
     width: 50%;
-  }
-  
-  #resume_nav ul {
     gap: 50px;
   }
 }
