@@ -187,9 +187,9 @@ td, th {
 	text-align: center;
   }
   
-  #resume-nav * {
-	padding-left: 505;
-	padding-right: 50%;
+  #resume-nav {
+	margin-left: 50%;
+	margin-right: 50%;
   }
   
   #education_heading {
@@ -204,9 +204,9 @@ td, th {
 	text-align: center;
   }
 	
-  #resume-nav * {
-	padding-left: 505;
-	padding-right: 50%;
+  #resume-nav {
+	margin-left: 50%;
+	margin-right: 50%;
   }
   
   #education_heading {
