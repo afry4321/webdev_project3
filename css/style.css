@@ -186,6 +186,15 @@ td, th {
 	justify-content: center;
 	text-align: center;
   }
+  
+  #education_heading * {
+	justify-content: center;
+	text-align: center;
+  }
+  
+  nav * {
+	gap: 50%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -193,5 +202,14 @@ td, th {
     font-size: 75%;
 	justify-content: center;
 	text-align: center;
+  }
+  
+  #education_heading * {
+	justify-content: center;
+	text-align: center;
+  }
+  
+  nav * {
+	gap: 50%;
   }
 }
