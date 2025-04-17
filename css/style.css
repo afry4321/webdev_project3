@@ -192,7 +192,7 @@ td, th {
 	text-align: center;
   }
   
-  nav * {
+  #resume_nav * {
 	gap: 50%;
   }
 }
@@ -209,7 +209,7 @@ td, th {
 	text-align: center;
   }
   
-  nav * {
+  #resume_nav * {
 	gap: 50%;
   }
 }
