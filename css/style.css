@@ -187,11 +187,6 @@ td, th {
 	text-align: center;
   }
   
-  #resume-nav {
-	margin-left: 50%;
-	margin-right: 50%;
-  }
-  
   #education_heading {
     padding-right: 50%;
   }
@@ -203,13 +198,8 @@ td, th {
 	justify-content: center;
 	text-align: center;
   }
-	
-  #resume-nav {
-	margin-left: 50%;
-	margin-right: 50%;
-  }
   
   #education_heading {
-    padding-right: 50%;
+    margin-right: 50%;
   }
 }
