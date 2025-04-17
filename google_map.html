@@ -8,9 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-  <script async defer src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
   <script src="js/script.js"></script>
-  <title>Google Maps</title>
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap&libraries=marker"></script>
 </head>
 <body>
   <nav>
@@ -23,5 +22,42 @@
   </nav>
   <h1>Google Maps</h1>
   <div id="map"></div>
+  <script>
+    function initMap(){
+      var map = new google.maps.Map(document.getElementById("map"), {
+	    zoom: 15,
+        center: {lat: 41.836821880235476, lng: -87.62594947378965}
+      })
+	
+	  var marker = new google.maps.Marker({
+        map: map,
+        position: {lat: 41.836821880235476, lng: -87.62594947378965},
+		title: "Illinois Institute of Technology: Mies Campus"
+      });
+	  
+	  var infoWindow = new google.maps.InfoWindow({
+        content: "This is Illinois Tech's Mies Campus!",
+        ariaLabel: "Uluru",
+      });
+	  
+	  marker.addListener("click", () => {
+        infoWindow.open({
+          anchor: marker,
+          map,
+        });
+      });
+	  
+	  var circle = new google.maps.Circle({
+        strokeColor: "#FF0000",
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        fillColor: "#FF0000",
+        fillOpacity: 0.2,
+        map,
+        center: {lat: 41.836821880235476, lng: -87.62594947378965},
+        radius: 750,
+      });
+    }
+  </script>
 </body>
 </html>
