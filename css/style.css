@@ -181,35 +181,67 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-  #resume_container * {
-    font-size: 100%;
-	justify-content: center;
-	text-align: center;
+  #resume_container {
+    font-size: 16px;
+    padding: 10px;
   }
-  
-  #education_heading * {
-	justify-content: center;
-	text-align: center;
+
+  #resume_heading, #contact_heading, #skills_heading, #jobs_heading, #education_heading, #video_heading {
+    font-size: 20px;
+    text-align: center;
   }
-  
-  #resume_nav * {
-	gap: -50%;
+
+  nav ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 600px) {
-  #resume_container * {
-    font-size: 100%;
-	justify-content: center;
-	text-align: center;
+  #resume_container {
+    font-size: 16px;
+    padding: 10px;
   }
-  
-  #education_heading * {
-	justify-content: center;
-	text-align: center;
+
+  #resume_heading, #contact_heading, #skills_heading, #jobs_heading, #education_heading, #video_heading {
+    font-size: 20px;
+    text-align: center;
   }
-  
-  #resume_nav * {
-	gap: -50%;
+
+  nav ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+    padding: 10px 15px;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
   }
 }
