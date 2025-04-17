@@ -186,10 +186,6 @@ td, th {
 	justify-content: center;
 	text-align: center;
   }
-  
-  #education_heading {
-    padding-right: 50%;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -197,9 +193,5 @@ td, th {
     font-size: 50%;
 	justify-content: center;
 	text-align: center;
-  }
-  
-  #education_heading {
-    margin-right: 50%;
   }
 }
